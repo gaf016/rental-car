@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    margin: 0 auto;
+}
+.nav{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1440px;
+    height: 104px;
+    justify-content: space-between;
+}
+.nav-elements{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+h1{
+   margin-right:550px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;    
+}
+.choose-card img{
+    width: 368px;
+    height: 240px;
+    
+}
+.card-icons img{
+    width: 24px;
+    height: 24px;
+}
+h4{
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;    
+    padding: 10px;
+}
+.choose-card p{
+    padding: 5px;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: gray;
+}
+
+
+.price p{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: gray;    
+}
+.card-icons p{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: gray;    
+}
+.price{
+    margin-left: 270px;
+    margin-top: -35px;
+}
+.card-icons{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.section-choose{
+    margin-left: 72px;
+}
+.choose-card button{
+    width: 368px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #5937E0;
+    color: white;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 40px;
+}
+.choose-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 1296px;
+
+    margin: 0 auto
+}
+.choose-card{
+    background-color:#FAFAFA;
+    border-radius: 15px;
+}
+.section-cars{
+    width: 1920px;
+    height: 294px;
+    margin: 0 auto;
+}
+h2{
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 100px;   
+    margin-bottom: 50px; 
+}
+.section-logos{
+    margin: 100px auto;
+    width: 1240px;
+    height: 294px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-logos img{
+    margin-left:140px;
+}
+.footer{
+    display: flex;
+    gap: 112px;
+    margin-top: 100px;
+    margin: 0 auto;
+    align-items: center;
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 16px;
+    leading-trim: Cap height;
+    line-height: 26px;
+    letter-spacing: 0%;
+    background-color: #5937E0;
+    color: white;
+    padding: 30px;
+}
+.choose-card:hover{
+    background-color: #d8d8d8;
+    transition: all 0.8s;
+}
